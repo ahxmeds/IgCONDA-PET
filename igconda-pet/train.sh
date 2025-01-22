@@ -1,0 +1,1 @@
+torchrun --standalone --nproc_per_node=1 train.py --experiment='exp0' --attn-layer1=False --attn-layer2=True --attn-layer3=True --epochs=1000 --batch-size=64 --num-workers=4 --cache-rate=1.0 --val-interval=10
